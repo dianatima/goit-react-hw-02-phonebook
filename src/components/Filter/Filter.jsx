@@ -14,3 +14,8 @@ export const Filter = ({ value, onChange}) => {
         </FilterWrap>
     )
 } 
+
+Filter.propTypes = {
+    value: PropTypes.string.isRequired,
+    onChange: PropTypes.func.isRequired,
+  };
